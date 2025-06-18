@@ -41,7 +41,3 @@ class Carro {
 const meuCarro = new Carro("Fusca", "1974");
 console.log(meuCarro.exibirInfo());
 
-constructor(marca, modelo) {
-    this.marca = marca;
-    this.modelo = modelo;
-}
